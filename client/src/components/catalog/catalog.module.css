@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 0px 0px 15px;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.add {
+  margin-top: 25px;
+}
